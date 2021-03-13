@@ -1,5 +1,6 @@
 import discord
 import asyncio
+import os
 
 client = discord.Client()
 
@@ -29,4 +30,5 @@ async def on_message(message):
     if message.content == "!활동내용":
         await message.channel.send(intros + "\n" + intro1 + "\n" + intro2 + "\n" + introf + "\n" + intros + "\n#활동내용\n" + intro3 + "\n" + intro4 + "\n" + intro5 + "\n" + intro6 + "\n" + introf)
 
-client.run("ODE5ODQ3NjE2MDc0NDgxNzA2.YEsklw.kwi_WaD03U3xBivkPBJz_aXkpEI")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
