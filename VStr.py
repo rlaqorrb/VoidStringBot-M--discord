@@ -29,7 +29,7 @@ members = "```cs\n#1학년\n1. 10128 최의경\n2. 10203 김나영\n3. 10220 이
 @client.event
 async def on_message(message):
     if message.content == "!도움":
-        await message.channel.send("```\n명령어\n```\n```\n!활동내용\n!질문\n!부원명단```\n```음악봇\n!help```")
+        await message.channel.send("```ini\n[명령어]\n```\n```fix\n!활동내용\n!질문\n!부원명단```\n```fix음악봇\n!help```")
     if message.content == "!활동내용":
         await message.channel.send(intros + "\n" + intro1 + "\n" + intro2 + "\n" + introf + "\n" + intros + "\n#활동내용\n" + intro3 + "\n" + intro4 + "\n" + intro5 + "\n" + intro6 + "\n" + introf)
     if message.content == "!질문":
