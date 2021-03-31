@@ -36,6 +36,8 @@ async def on_message(message):
         await message.channel.send(director + "," + leader + "에게 문의")
     if message.content == "!부원명단":
         await message.channel.send(members)
+    if message.content == "?":
+        await message.channel.send("?")
 
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
