@@ -40,7 +40,9 @@ async def on_message(message):
         await message.channel.send("??")
     if message.content == "수학":
         await message.channel.send("tlqkf")
-        await message.channel.send("시발")
+        await message.channel.send("тپ발")
+        await message.channel.send("عپصمل")
+        await message.channel.send("тќљчг")
 
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
