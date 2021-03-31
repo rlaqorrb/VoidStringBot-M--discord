@@ -37,7 +37,7 @@ async def on_message(message):
     if message.content == "!부원명단":
         await message.channel.send(members)
     if message.content == "?":
-        await message.channel.send("?")
+        await message.channel.send("??")
 
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
