@@ -43,6 +43,8 @@ async def on_message(message):
         await message.channel.send("тپ발")
         await message.channel.send("عپصمل")
         await message.channel.send("тќљчг")
+    if message.content == "배고파":
+        await message.channel.send("나도")
 
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
