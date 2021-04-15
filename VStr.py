@@ -49,11 +49,6 @@ async def on_message(message):
         await message.channel.send(members)
     if message.content == "?":
         await message.channel.send("??")
-    if message.content == "수학":
-        await message.channel.send("tlqkf")
-        await message.channel.send("тپ발")
-        await message.channel.send("عپصمل")
-        await message.channel.send("тќљчг")
     if message.content == "배고파":
         await message.channel.send("나도")
     if message.channel.send("공지"):
