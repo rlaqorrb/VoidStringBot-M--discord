@@ -34,7 +34,7 @@ announcement2 = """
 
 https://www.youtube.com/watch?v=yytWGELNeOI
 
-https://www.youtube.com/watch?v=I2yWGzxKKZg&list=WL&index=64
+https://www.youtube.com/watch?v=3R6vFdb7YI4
 """
 
 @client.event
